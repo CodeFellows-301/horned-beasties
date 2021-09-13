@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Sources Used:
+
+Rhino:
+Image: https://www.imdb.com/title/tt0824194/
+Taken from the IMDB Website -> I do not own this. If i cannot use this I am happy to remove it!
+Rhino Description Quote: https://marvel.fandom.com/wiki/Category:Aleksei_Sytsevich_(Earth-616)/Quotes
+HellBoy:
+Image: http://photosandgraphicsindex.blogspot.com/2010/05/comic-character-inspiration-hellboy.html
+HellBoy description: https://comicbookandbeyond.com/hellboy-quotes/
