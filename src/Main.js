@@ -16,7 +16,7 @@ class HornedBeast extends Component {
     return (
     <> 
       <h2>Fear the mighty {this.props.title} </h2>
-      <img src={this.props.imageURL} alt='rhino' title="Im Rhino. I knock thing's down. That's what I do. That's who I am."></img>
+      <img src={this.props.imageURL} alt={this.props.title} title={this.props.description}></img>
       <p>{this.props.description}</p>
     </>
     )
