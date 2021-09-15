@@ -1,5 +1,6 @@
 # Horned Beast 301 Project #1
 ## Introduction to React.
+-> This interactive web application takes user input and tracks their favorite photos. 
 ### Author: Jacob Gregor
 
 [Day-2] -> Time Spent Exercise  
@@ -7,11 +8,17 @@
 Feature #1  
 Start time: 4:50pm  
 Finish time: 5:50pm  
-Actual finish-time:   
+Actual finish-time: 5:50pm    
 
+Feature #2  
+Start time: 7pm  
+Finish time: 8pm  
+Actual finish-time: 8:10pm   
 
-
-
+Feature #3  
+Start time: 4:50pm  
+Finish time: 5:10pm  
+Actual finish-time: 5:10pm   
 
 
 ##Sources-Used:  
