@@ -20,6 +20,22 @@ Start time: 4:50pm
 Finish time: 5:10pm  
 Actual finish-time: 5:10pm   
 
+[Day-3] -> Time Spent Exercise  
+
+Feature #1  
+Start time: 2:00pm  
+Finish time: 2:30pm  
+Actual finish-time: pm    
+
+Feature #2  
+Start time: pm  
+Finish time: pm  
+Actual finish-time: pm   
+
+Feature #3  
+Start time: pm  
+Finish time: pm  
+Actual finish-time: pm  
 
 ##Sources-Used:  
 [Day-1]  
