@@ -24,18 +24,9 @@ Actual finish-time: 5:10pm
 
 Feature #1  
 Start time: 2:00pm  
-Finish time: 2:30pm  
-Actual finish-time: pm    
+Finish time: 3:30pm  
+Actual finish-time: 5:00pm    
 
-Feature #2  
-Start time: pm  
-Finish time: pm  
-Actual finish-time: pm   
-
-Feature #3  
-Start time: pm  
-Finish time: pm  
-Actual finish-time: pm  
 
 ##Sources-Used:  
 [Day-1]  
