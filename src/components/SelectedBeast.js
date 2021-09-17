@@ -19,8 +19,8 @@ class SelectedBeast extends Component {
         <Modal.Title>{this.props.beast.title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>{this.props.beast.keyword}</h4>
         <img src={this.props.beast.image_url} alt={this.props.beast.title}/>
+        <h4>{this.props.beast.keyword}</h4>
         <p>{this.props.beast.description}</p>
       </Modal.Body>
       <Modal.Footer>

@@ -22,8 +22,8 @@ class BeastImage extends Component {
 
   render() {
     return (
-    <Col> 
-      <Card style={{ width: '20rem' }}>
+    <Col xs={1} sm={2} md={3} lg={4}> 
+      <Card >
       <Card.Img  onClick={this.handleClick} variant="top" src={this.props.image} />
       <Card.Body>
         <Card.Title> {this.state.heart} {this.state.votes}</Card.Title>
