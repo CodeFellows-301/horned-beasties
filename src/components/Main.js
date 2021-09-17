@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 
 
 
+
 class Main extends Component {
 
 
@@ -14,14 +15,13 @@ class Main extends Component {
     return (
       <Container fluid>
       <h1>{this.props.message}</h1>
-      <Row>
+      <Row >
         {this.props.beastObjects.map( (beast,i) => 
            <BeastImage 
             key={'beast-' + i}
             title={beast.title}
-            keyword={beast.keyword}
             image={beast.image_url}
-            description={beast.description}
+            Horn={beast.horns}
             modalClick={() => this.props.modalClick(beast)}
             />
         )};

@@ -14,15 +14,35 @@ class App extends Component {
     super(props)
     this.state = {
       showBeast: false,
-      beast: beastObjects[0]
+      beast: beastObjects[0],
+      beastObjects: beastObjects
     }
   };
+
+  handleFormSelect = (option) => {
+    console.log(option)
+    if(option === ''){
+     this.setState({
+       beastObjects: beastObjects
+     })} else {
+      let update = beastObjects.filter(beast => beast.horns === Number(option))
+      console.log(update)
+      this.setState({
+        beastObjects: update
+      })
+    }
+  };
+
+
+
     
     modalOnClick = (beast) => {this.setState ({ 
       showBeast: true,
       beast: beast
+
       
-    }); console.log('test')}
+    }); 
+  }
  
 
     modalOnClose = () => this.setState ({ showBeast: false })
@@ -32,8 +52,8 @@ class App extends Component {
   render() {
     return (
       <>
-      <Header title='The Beastie Boys 🦏'/>
-      <Main modalClick={this.modalOnClick} message='Beast selection' beastObjects={beastObjects}/>
+      <Header form={this.handleFormSelect} title='The Beastie Boys 🦏'/>
+      <Main modalClick={this.modalOnClick} message='Beast selection' beastObjects={this.state.beastObjects}/>
       <SelectedBeast beast={this.state.beast} show={this.state.showBeast} modalClose={this.modalOnClose}/>
       <Footer title='Author: Jacob Gregor'/>
       </>
